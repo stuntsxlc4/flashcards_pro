@@ -1,4 +1,4 @@
-project = "FastAPI Microservice Template"
+project = "Flascards Content Service"
 author = "Project maintainers"
 copyright = "2026, Project maintainers"
 
