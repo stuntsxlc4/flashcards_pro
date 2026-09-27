@@ -13,7 +13,6 @@ from app.http.router import root_router
 from app.platform.database import DatabaseRuntime, create_database_runtime
 from app.platform.telemetry import TelemetryRuntime, create_telemetry_runtime
 
-
 logger = logging.getLogger(__name__)
 
 

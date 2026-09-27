@@ -378,6 +378,7 @@ migration-check:
 """
     path.write_text(makefile, encoding="utf-8")
 
+
 update_text_files()
 update_environment_example()
 update_readme()
