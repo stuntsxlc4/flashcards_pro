@@ -1,0 +1,26 @@
+{
+  "artifacts": [],
+  "check": "image",
+  "commit": "f31a58a0513ad45d74ac99d41eea178d83a15797",
+  "errors": [
+    "docker: unexpected exit code 1"
+  ],
+  "findings": [],
+  "run_context": {
+    "inputs": {
+      "security/exceptions.json": "5ed5170962cc8161ef90f39a5646e0bd10cb40123f279f4bb3ea93328c01e178",
+      "security/gitleaks.toml": "644c0b7f7838b2bf560fbabbb1f1566640ccf02414b416309913184dc3fcb13e",
+      "security/policy.json": "5b66e6de4df3f5a40170c6f04c77949fb6a4abc984bea409e063b6b1b3804cf8",
+      "security/tools.lock.json": "a6f8ff729ab0b1515b769bad9c572df09c1695b48f09b3c6bdf1227230197427"
+    },
+    "run_attempt": "1",
+    "run_id": "local"
+  },
+  "schema_version": 1,
+  "status": "error",
+  "target": "template-fastapi",
+  "tool": {
+    "name": "trivy",
+    "version": "0.75.0"
+  }
+}
